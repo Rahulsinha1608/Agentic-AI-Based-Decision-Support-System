@@ -1,6 +1,6 @@
 # Agentic AI Based Decision Support System for Land Filling and Soil Recommendation
 
-> 6th Semester Project | Group 6 | School of Computer Engineering  
+> 6th Semester Project | School of Computer Engineering  
 > KIIT Deemed to be University, Bhubaneswar, Odisha – 751024  
 > March 2026
 
