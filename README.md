@@ -1,6 +1,6 @@
 # Agentic AI Based Decision Support System for Land Filling and Soil Recommendation
 
-> 6th Semester Project | School of Computer Engineering  
+> 6th Semester Project | Group 6 | School of Computer Engineering  
 > KIIT Deemed to be University, Bhubaneswar, Odisha – 751024  
 > March 2026
 
@@ -95,6 +95,19 @@ The system is built around **6 core components**:
 
 ---
 
+## 🛠️ Tech Stack
+
+| Layer              | Technology                          |
+|--------------------|-------------------------------------|
+| **Backend**        | Python, Flask                       |
+| **Frontend**       | HTML, CSS, JavaScript, Bootstrap    |
+| **ML Model**       | scikit-learn (Random Forest)        |
+| **Data Handling**  | Pandas, NumPy                       |
+| **Visualization**  | Matplotlib, Seaborn                 |
+| **Deployment**     | Flask Development Server / Web App  |
+
+---
+
 ## 📈 Comparison with Existing Methods
 
 | Method                             | Technique                              | Performance         | Limitation                          |
@@ -123,10 +136,15 @@ This project fills that gap by delivering an end-to-end system: from data input 
 
 ## 🔮 Future Scope
 
-- Expand the dataset to cover more geographic regions for broader applicability.
-- Integrate GIS maps for enhanced geographical visualization.
-- Adopt more advanced ML models (e.g., XGBoost, deep learning) for higher accuracy.
-- Add real-time data feeds for dynamic environmental conditions.
+- **Full Pipeline Automation** – Automate the end-to-end workflow from data collection and preprocessing to model retraining and prediction, reducing any need for manual intervention.
+- **Interactive Map with Place Search** – Integrate an interactive map (e.g., Google Maps API / Leaflet.js) where users can simply type a place name or pin a location, and the system automatically fetches the relevant environmental features (temperature, humidity, groundwater depth, etc.) for that area and runs the prediction — eliminating the need to manually enter parameters.
+- **Auto Feature Extraction by Location** – Use geocoding and geospatial APIs to automatically extract soil and terrain features for any given location name or coordinates, making the tool fully self-service.
+- **Real-Time Data Feeds** – Connect to live weather and environmental APIs for dynamic, up-to-date predictions without manual data entry.
+- **Larger & Diverse Datasets** – Expand training data across more geographic regions and soil types to improve model generalization.
+- **Advanced ML Models** – Experiment with XGBoost, LightGBM, or deep learning architectures for even higher accuracy.
+- **Explainability Dashboard** – Incorporate SHAP/LIME visualizations into the web UI to make model decisions transparent to end users.
+- **Mobile Application** – Build a mobile-friendly app (Android/iOS) to extend accessibility for field engineers on-site.
+- **Cloud Deployment** – Host on platforms like AWS, GCP, or Heroku for production-scale use and team collaboration.
 
 ---
 
